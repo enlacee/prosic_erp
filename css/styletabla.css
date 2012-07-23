@@ -1,0 +1,110 @@
+/*
+    Document   : tabla
+    Created on : 31/01/2011, 02:37:52 AM
+    Author     : USER
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+/* ------------------
+ styling for the tables
+   ------------------   */
+/*
+	Grey Suits you Sir. Please host the images on your own server.
+	written by Stuart Colville http://www.muffinresearch.co.uk
+*/
+
+.tabla_gris, .tabla_gris td
+{
+/*    border               : 1px solid #CCC;*/
+    border-collapse      : collapse;    
+    font-size: 12px;
+    color: #000;
+}
+.tabla_gris
+{
+    border                :none;
+    border                :1px solid #CCC;
+}
+.tabla_gris thead th,
+.tabla_gris  th
+{
+    background            : #FFF url(../images/th_bck.gif) repeat-x;
+    color                 : #666;
+    padding               : 5px 5px;
+    border-left           : 1px solid #CCC;
+}
+.tabla_gris tbody th
+{
+    background            : #fafafb;
+    border-top            : 1px solid #CCC;
+    text-align            : left;
+    font-weight           : normal;
+    font-size: 12px;
+    color: #000;
+}
+.tabla_gris tbody tr td
+{
+/*    padding               : 5px 5px;*/
+    padding-left: 15px;
+    color                 : #666;
+    font-size: 12px;
+    color: #000;
+}
+.tabla_gris tbody tr:hover
+{
+/*    background            : #FFF url(../images/tr_bck.gif) repeat;*/
+      background-color      : #ffffcc;
+      cursor                : pointer;
+}
+
+.tabla_gris tbody tr:hover td
+{
+    color                 : #454545;
+}
+.tabla_gris tfoot td,
+.tabla_gris tfoot th
+{
+    border-left           : none;
+    border-top            : 1px solid #CCC;
+    padding               : 4px;
+    background            : #FFF url(../images/foot_bck.gif) repeat;
+    color                 : #666;
+}
+.tabla_gris caption
+{
+    text-align            : center;
+    font-size             : 120%;
+    color                 : #666;
+    width                 :100%;
+    border-color          :#999;
+    border-width          :thin;
+    border-style          :solid;
+    border                :0px 1px 1px 1px;
+    margin-top            :10px;
+    font-family           : arial;
+    color                 : #999999;
+    font-weight           : bold;
+}
+.tabla_gris a:link
+{
+    color                 : #666;
+}
+.tabla_gris a:visited
+{
+    color                 : #666;
+}
+.tabla_gris a:hover
+{
+    color                 : #003366;
+    text-decoration       : none;
+}
+.tabla_gris a:active
+{
+    color                 : #003366;
+}

@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+#contenedor{
+    width: 1100px;
+    height: 50%;
+    margin: 0 auto 0 auto;
+}
+.menu_principal{
+    background-color: #008000;
+}
+
+#cabecera{
+    display: inline-block;
+    width: 100%;
+
+
+}
+
+#logo{
+    position:relative;
+    width: 100px;
+    right: 400px;   
+    margin:0 0 0 10px;
+    /*    padding:5px 18px 5px 5px; */ 
+
+
+}
+nav{
+       float: right;
+
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 5px;
+    text-shadow:1px 1px 0 rgba(0,0,0,.3);
+    font-size: 14px;
+    text-align: right;
+     line-height:20px;
+
+}

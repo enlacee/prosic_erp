@@ -1,0 +1,81 @@
+ul.tabs {
+    /*	margin: 0;
+            margin-left: 10px;
+            padding: 0;
+            float: left;
+            list-style: none;
+            height: 26px;
+            border-bottom: 2px solid lime;
+            border-left: 2px solid #999;
+            width: 600px;*/
+}
+
+ul.tabs li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    height: 31px;
+    line-height: 31px;
+    overflow: hidden;
+    position: relative;
+}
+ul.tabs li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 12px;
+    padding: 0 0px;
+    margin-left: 1px;
+    border: 0px solid #0FF;
+    outline: none;
+}
+
+ul.tabs li a:hover {
+
+}	
+
+html ul.tabs li.active, html ul.tabs li.active a:hover  {
+    background:#fff;
+    border-bottom: 0px solid #fff;
+}
+
+.tab_container {
+    margin: 0 auto 0 auto;
+    border: 3px solid red;
+    clear: both;
+    float: left; 
+    width: inherit;
+    /*height: 70%;*/
+    background: #E8E8E8;
+    display: block;
+    -moz-border-radius-bottomright: 5px;
+    -khtml-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -khtml-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+}
+
+.tab_content {
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    background-color: #E8E8E8;
+    /*	height: 98%;
+            width: 99%;*/
+}
+
+.tab_content h2 {
+    font-weight: normal;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #ddd;
+    font-size: 1.8em;
+}
+.tab_content h3 a{
+    color: #254588;
+}
+.div_header_center{
+    font-size: 12px;
+    font-weight: bold;
+}

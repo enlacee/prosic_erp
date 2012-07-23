@@ -1,0 +1,90 @@
+
+/*
+.imgarrow {
+        background:url("../images/usos/down.jpg") no-repeat scroll 0 0 transparent;	
+        float:left;
+        height:12px;
+        margin-left:4px;
+        width:8px;
+}
+
+.ad2 {
+        float:right;
+        width:20px;
+}
+
+.header_logeo {
+        float:right;
+        padding-top:10px;
+        text-align:right;
+
+}
+
+.header_logeop1 {
+        height:20px;
+}
+*/
+.session {
+    color:#5a5656;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:10px;
+    font-weight:normal;
+    text-decoration:none;
+}
+
+.sessionnom {
+    color:#5a5656;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:10px;
+    font-weight:normal;
+    text-decoration:none;
+}
+
+a.header_menu_logout:link, a.header_menu_logout:visited, a.header_menu_logout:active {
+    color:#5a5656;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:10px;
+    font-weight:normal;
+    text-align:center;
+    text-decoration:none;
+}
+
+a.header_menu_logout:hover {
+    color:#e79793;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:10px;
+    font-weight:normal;
+    text-align:center;
+    text-decoration:underline;
+}
+
+a.header_menu_ayuda:link, a.header_menu_logout:visited, a.header_menu_logout:active {
+    color:#5a5656;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:10px;
+    font-weight:normal;
+    text-align:center;
+    text-decoration:none;
+}
+
+a.header_menu_ayuda:hover {
+    color:#cb3231;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:10px;
+    font-weight:normal;
+    text-align:center;
+    text-decoration:none;
+}
+
+.imgayuda {
+    float:right;
+    height:14px;
+    width:14px;
+}
+
+.header_logeop2  {
+    float:right;
+    height:25px;
+    margin-right:2px;
+    width:90px;
+}

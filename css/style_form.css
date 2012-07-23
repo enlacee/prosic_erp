@@ -1,0 +1,110 @@
+.seperador{
+    clear: both;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+fieldset div {
+    margin:0.3em 0;
+}
+label {
+   /* float:left;*/
+    width:10em;
+    margin-right:1em;
+    text-align: right;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+legend {
+    color:#0b77b7;
+}
+legend span {
+    width:10em;
+    text-align:right;
+}
+input[type=text] {
+    padding:0.15em;
+    border:1px solid #7F9DB9;
+    background:#fafafa;
+    -moz-border-radius:0.4em;
+    -khtml-border-radius:0.4em;
+    /*float: left;*/
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+}
+input[type=text]:hover, input[type=text]:focus {
+    border:1px solid #333333;
+    background:#f6f6f6;
+    color: #000;
+    font-size: 12px;
+} 
+fieldset {
+    border:1px solid #ddd;
+    padding:0 0.5em 0.5em;
+}
+
+
+.error {
+    color: #900;
+    float: left;
+}
+img{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+.submit-go,.submit-go:hover{
+    background-image: url('../images/disk.png');
+    background-repeat: no-repeat;
+    text-align: right;
+    padding-left: 20px;
+    background-position: left;
+    margin-right: 10px;
+    font-weight: bold;
+    height:  20px;
+    cursor: pointer;
+    color: #000;
+}
+.submit-cancelar,.submit-cancelar:hover{
+    background-image: url('../images/cancelar.png');
+    background-repeat: no-repeat;
+    text-align: right;
+    padding-left: 20px;
+    background-position: left;
+    margin-right: 10px;
+    font-weight: bold;
+    height: 20px;
+    cursor: pointer;    
+    color: #000;
+}
+
+.submit-nuevo,.submit-nuevo:hover{
+    background-image: url('../images/page.png');
+    background-repeat: no-repeat;
+    text-align: right;
+    padding-left: 20px;
+    background-position: left;
+    margin-right: 10px;
+    font-weight: bold;
+    height: 20px;
+    cursor: pointer;    
+    color: #000;
+}
+.div_opciones{
+    width: 90%;
+    background-color: white;
+    height: 25px;
+    padding-top: 10px;
+    padding-left: 10px;
+    -moz-border-radius:0.4em;
+    -khtml-border-radius:0.4em;    
+    margin-top: 5px;
+    margin-bottom: 10px;
+}

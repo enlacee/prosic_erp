@@ -1,0 +1,41 @@
+/* CSS Document */
+*{
+	font-size:14px;
+}
+.table{
+	border:1px;
+	border-style:solid;
+	border-collapse:collapse;	
+}
+.table td{
+	border:1px;
+	border-style:solid;
+	border-collapse:collapse;	
+}
+.table th{
+		border:1px;
+	border-style:solid;
+	border-collapse:collapse;	
+}
+
+.table2{
+	border:1px;
+	border-collapse:collapse;	
+}
+.table2 td{
+	border:1px;
+	border-collapse:collapse;	
+}
+
+#botonimprimir{
+	display:block;
+}
+img,a img{
+	border: none;
+}
+#botonimprimir{
+	width: 800px;
+	height: 24px;
+	background-color: silver;
+	
+	}
