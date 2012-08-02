@@ -7,7 +7,7 @@ Use: Main Screen Import
 @import "css.css";
 @import "acordeon.css";
 /*-------------------*/
-
+@import "estilos.css";
 
 @import "solapas.css";
 @import "head.css";

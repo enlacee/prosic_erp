@@ -751,13 +751,10 @@ img{
 .fila_input{
     clear: both;
     /*   background-color: #99FF66;*/
-    color: #ff00ff;
+    /*color: #ff00ff;*/
     min-height: 20px;
 }
-.ocultar{
-    display:none;
-    border:1px solid #f00;
-}
+
 .ayuda{
     /*font-family:new courier;*/
     background-color:#F1F1F1;
@@ -812,6 +809,8 @@ table{
 
 }
 
-.ocular{
-    display:none;
+.ocultar{
+   display:none;
+   border: 2px solid red;
+   color: #006633;
 }
