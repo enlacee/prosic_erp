@@ -7,7 +7,7 @@ fieldset div {
     margin:0.3em 0;
 }
 label {
-   /* float:left;*/
+    float:left;
     width:10em;
     margin-right:1em;
     text-align: right;
@@ -44,6 +44,13 @@ fieldset {
     border:1px solid #ddd;
     padding:0 0.5em 0.5em;
 }
+
+/*---- add select anb----*/
+select { 
+    width: 150px;
+}
+/*---- add select anb----*/
+
 
 
 .error {

@@ -17,9 +17,9 @@
 }
 
 #logo{
-    position:relative;
+    position:absolute;
     width: 100px;
-    right: 400px;   
+    top: 0;   
     margin:0 0 0 10px;
     /*    padding:5px 18px 5px 5px; */ 
 
@@ -38,4 +38,37 @@ nav ul li{
     text-align: right;
      line-height:20px;
 
+}
+.ocultar{
+    display:none;
+    border: 2px solid red;
+    color: #006633;
+}
+.fila_input{
+    clear: both;
+    /*   background-color: #99FF66;*/
+    /*color: #ff00ff;*/
+    min-height: 20px;
+}
+
+.ayuda{
+    /*font-family:new courier;*/
+    background-color:#F1F1F1;
+    border:1px solid #EBEBEB;
+    padding:7px;
+    margin:15px 0;
+}
+
+
+.red{
+    color:#D94736;
+    font-weight:bold;
+}
+.blue{
+	color :#09F;
+	font-weight:bold;
+}
+.clear{
+    clear:both;
+    border:2px dotted #FF00FF;
 }

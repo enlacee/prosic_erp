@@ -33,7 +33,7 @@ a:hover
     color: #A80000;
 }
 
-h1 {font-size: 14px; margin: 20px 0;}
+h1 {font-size: 16px; margin: 0px 0;}
 
 fieldset
 {
@@ -44,7 +44,7 @@ fieldset
 
 input[readonly]
 {
-    background-color: #DDDDDD;
+    /*background-color: #DDDDDD;*/
 }
 
 .modolectura
@@ -748,28 +748,6 @@ img{
 /*
 * Modificaciones CSS Anibal
 */
-.fila_input{
-    clear: both;
-    /*   background-color: #99FF66;*/
-    /*color: #ff00ff;*/
-    min-height: 20px;
-}
-
-.ayuda{
-    /*font-family:new courier;*/
-    background-color:#F1F1F1;
-    border:1px solid #EBEBEB;
-    padding:7px;
-    margin:15px 0;
-}
-.red{
-    color:#D94736;
-    font-weight:bold;
-}
-.clear{
-    clear:both;
-    border:2px dotted #FF00FF;
-}
 
 ul {
     list-style-type: none;
@@ -809,8 +787,20 @@ table{
 
 }
 
-.ocultar{
-   display:none;
-   border: 2px solid red;
-   color: #006633;
+
+.editar{ 
+    border: 1px solid greenyellow;
+    background-image:url("../images/edit.png");
+    background-position: 0 0;
+    width: 16px;
+    height: 16px;
+}
+
+.tb{
+    border:1px solid red;
+    background-color: greenyellow;
+    /*height: 100px;*/
+}
+
+#panel2b a:hover {
 }

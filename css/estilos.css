@@ -3,3 +3,75 @@
     height: 250px;
     overflow-y: scroll;
 }
+
+.section{
+	background-color:#FFDFEF;	
+	overflow:hidden;
+}
+.article{
+	float:left;
+	width: 48%;
+	padding: 1%;
+}
+
+
+/***********************************/
+#divEliminar_Editar {
+	/*width: 100px;
+	height: 17px;*/
+}
+
+.divEliminar {
+
+	cursor: pointer;
+	/*float:right;
+	margin:0 15px;
+	*/
+	background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url("../images/cancelar.png");
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    height: 17px;
+    width: 16px;
+	margin:0 2px;
+	padding: 0 10px 1px 10px;
+
+	
+}
+
+.divEditar {
+	cursor: pointer;
+	/*float:right;
+	margin:0 15px;
+	*/
+
+	background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url("../images/edit.png");
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    height: 17px;
+    width: 16px;
+	margin:0 2px;
+	padding: 0 10px 1px 10px;
+}
+
+.divEstado{
+    
+}
+.ocultar{
+	border:1px solid red;
+	background-color:#ffeeee;
+	display:none;
+
+}
+.resaltar_1{
+	background-color:#FF0
+}

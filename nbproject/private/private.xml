@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1">
+        <file>
+            <url>sunat_planilla/controller/PlameDeclaracionController.php</url>
+            <line>317</line>
+        </file>
+        <file>
+            <url>sunat_planilla/controller/TrabajadorPdeclaracionController.php</url>
+            <line>221</line>
+        </file>
+        <file>
+            <url>sunat_planilla/controller/EtapaPagoController.php</url>
+            <line>127</line>
+        </file>
+    </editor-bookmarks>
 </project-private>
